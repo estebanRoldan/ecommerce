@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Referencia de la hoja de estilo de Css -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Fonte del Proyecto Raleway -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <title> Mi Portafolio</title>
+</head>
+<body style="background: #E5E5E5;">
+    <!-- Sección del Menú  -->
+    <section class="top">
+        <header class="interno">
+            <div class="interno_top">
+                <div class="derecha">
+                    <div class="ancho">
+                    <img class="img_logo" src="assets\logoe.png">
+                
+                    <input type="search" class="busqueda_prod" name="busqueda" placeholder="¿Qué desea buscar?">
+                </div>
+                    <div class="login">
+                    <button type="submit" class="btn_login">Login</button>
+                     </div>
+               </div>
+         </div>
+        </header>
+
+      
+       
+    </section>
+    
+    <section class="login_panel">
+        
+        <form action="#" method="post">
+      
+            <h1>Sign in</h1>
+      
+            <section>        
+              <label for="email" class="login_text">Email</label>
+              <input id="email" class="formcontato__input" name="email" type="email" placeholder=" " autocomplete="username" required>
+            </section>
+                  
+            <section>        
+              <label for="current-password" class="login_text">Password</label>
+              <input id="current-password" class="formcontato__input" name="current-password" type="password" autocomplete="current-password" aria-describedby="password-constraints" required>
+              
+            </section>
+      
+            <button class="signin">Sign in</button>
+            
+          </form>
+
+
+    </section>
+    <!-- Sección del Header/Title/Hero -->
+  
+
+    <section class="bajo">
+        <div class="footer">
+               <div class="cont"><img  class="img_footer" src="assets\logoe.png" alt="logo Geek">
+               <nav class="nav">
+               <ul class="menu__list">
+                   <li class="list_item"><a href="sobre-mi">Quienes somos</a></li>
+                   <li class="list_item"><a href="skills">Políticas de privacidad</a></li>
+                   <li class="list_item"><a href="hobbies">Programa de fidelidad</a></li>
+                   <li class="list_item"><a href="formacion">Nuestras tiendas</a></li>
+                   <li class="list_item"><a href="xp">Quiero ser franquiciado</a></li>
+                   <li class="list_item"><a href="contacto">Anuncie aquí</a></li>
+               </ul>
+               </nav>
+               
+                            <div class="formcontato__text">
+                   <h2 class="formcontato__title">Contacto</h2>
+                   <form class="formcontato__form" name="form" onsubmit="return validar()"></form>
+                   <input class="formcontato__input" type="text" id="nombre" placeholder="Nombre">
+                   <textarea class="formcontato__textarea" rows="6" cols="40" id="mensagem" name="mensaje" placeholder="Mensaje"></textarea>
+                   <button type="submit" class="form_Btn">Enviar mensaje</button>
+                    </form>
+                       </div>
+                       </div>
+                             
+           </div>
+           
+           
+       <div class="pie">
+               <h2 >Desarrollado por Esteban Roldan</h2>
+               <h2>2022</h2>
+       </div>
+   
+   
+       </section>
+ <!-- Script del documento JavaScript -->
+<script src="validacion.js"></script>
+</body>
+</html>

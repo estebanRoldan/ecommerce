@@ -1,0 +1,11 @@
+{
+  "name": "front-end-2-ecommerce",
+  "version": "1.0.0",
+  "description": "x",
+  "main": "productos-servicios.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "yo",
+  "license": "ISC"
+}
